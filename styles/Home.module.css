@@ -1,0 +1,109 @@
+.Container {
+  margin-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  gap: 160px;
+}
+
+.IntroText > h2 {
+  color: pink;
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-size: 60px;
+}
+
+.IntroText > h1 {
+  color: var(--color-primary-text);
+  margin: 0px;
+  font-size: 200px;
+}
+
+.IntroText > p {
+  max-width: 300px;
+  color: #d3d3d3;
+}
+
+.Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid pink;
+  max-width: 130px;
+  height: 40px;
+}
+
+.Button > span {
+  display: flex;
+  align-items: center;
+}
+
+.HomeLeftSide {
+  display: flex;
+  flex-direction: column;
+}
+
+.HomeLeftSide__Gallery {
+  flex: 0.9;
+}
+
+.Statistics {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  background-color: var(--color-primary-text);
+  width: 500px;
+  height: 50px;
+  margin: 0;
+  border-radius: 10px;
+  padding: 10px 0px 10px 0px;
+}
+
+.StatElement {
+  margin-top: 5px;
+}
+
+.StatElement > h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.StatElement > h4 {
+  margin-top: 0px;
+}
+
+.HomeLeftSide__Gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.HomeLeftSide__Gallery_Pics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.ChangePicDots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.ChangePicDots > span {
+  cursor: pointer;
+  transition: transform 300ms ease-in-out;
+}
+
+.ChangePicDots > span:hover {
+  transform: scale(1.08);
+}
+
+.Image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

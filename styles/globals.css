@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+html,
+body {
+  background-color: var(--color-primary);
+  font-family: "Ubuntu", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Global Variables */
+:root {
+  --color-primary: #0d1117;
+  --color-secondary: #30363d;
+  --color-primary-text: #fff;
+  --color-secondary-text: red;
+  --color-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#__next {
+  overflow-x: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary-text);
+}
+
+.MuiSvgIcon-root {
+  color: var(--color-primary-text);
+}
+
+.appLayout {
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.appNavbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.appNavbar__logo {
+  flex: 0.4;
+}
+
+.appNavbar__logo > a > h1 {
+  margin: 0;
+  color: var(--color-secondary-text);
+  font-style: italic;
+}
+
+.appNavbar__middle {
+  display: flex;
+  gap: 30px;
+  flex: 0.6;
+}
+
+.appNavbar__middle > a > h3 {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.appNavbar__right {
+  display: flex;
+  flex: 0.1;
+  gap: 10px;
+}

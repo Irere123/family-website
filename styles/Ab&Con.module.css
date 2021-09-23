@@ -1,0 +1,100 @@
+.AboutPageContainer {
+  margin-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.ContactPageContainer {
+  margin-top: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.Icon {
+  color: #000;
+}
+
+.Contacts {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.Contacts > h4 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.AboutNnN {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.AboutNnN__Text {
+  flex: 0.6;
+  max-width: 500px;
+}
+
+.AboutNnN__Text > h1 {
+  color: var(--color-primary-text);
+}
+
+.AboutNnN__Text > h1 > .NnNLogo {
+  font-size: 45px;
+  font-style: italic;
+  color: var(--color-secondary-text);
+}
+
+.AboutNnN__Text > p {
+  color: #d3d3d3;
+}
+
+.AboutNnN__Info {
+  flex: 0.4;
+}
+
+.AboutNnN__Info > h1 {
+  color: var(--color-primary-text);
+}
+
+.AboutNnN__Info > h1 > .ESTdate {
+  font-size: 20px;
+}
+
+.FoundersCard {
+  background-color: #d3d3d3;
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: var(--color-shadow);
+}
+
+.FoundersCard__Image {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.FoundersCard__Image_Img {
+  border-radius: 50%;
+  box-shadow: var(--color-shadow);
+}
+
+.FoundersCard > h3 {
+  text-align: center;
+}
+
+.ContactCard {
+  background-color: #d3d3d3;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: var(--color-shadow);
+}
+
+.ContactDetails > h2 {
+  text-align: center;
+}
