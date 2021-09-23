@@ -45,7 +45,7 @@ export const Navbar: React.FC = () => {
             cursor: "pointer",
           }}
         >
-          <Tooltip title="+250788854485">
+          <Tooltip title="+250788858349">
             <WhatsApp />
           </Tooltip>
         </span>

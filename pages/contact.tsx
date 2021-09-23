@@ -19,13 +19,13 @@ const Contact: React.FC = () => {
                 <span>
                   <Phone className={styles.Icon} />
                 </span>
-                +25078884859
+                +250788858349
               </h4>
               <h4>
                 <span>
                   <Phone className={styles.Icon} />
                 </span>
-                +25076364543
+                +250786364543
               </h4>
               <h4>
                 <span>
