@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
-import { ChevronRight, Circle } from "@mui/icons-material";
+import { ChevronRight, CircleOutlined } from "@mui/icons-material";
 
 import styles from "../styles/Home.module.css";
 import pic from "../public/chicken.png";
@@ -44,7 +44,7 @@ function Home() {
               </a>
             </Link>
             <span>
-              <ChevronRight />
+              <ChevronRight className={styles.Icon} />
             </span>
           </div>
         </div>
@@ -55,13 +55,13 @@ function Home() {
             </div>
             <div className={styles.ChangePicDots}>
               <span onClick={() => setPage(0)}>
-                <Circle />
+                <CircleOutlined className={styles.IconDot} />
               </span>
               <span onClick={() => setPage(1)}>
-                <Circle />
+                <CircleOutlined className={styles.IconDot} />
               </span>
               <span onClick={() => setPage(2)}>
-                <Circle />
+                <CircleOutlined className={styles.IconDot} />
               </span>
             </div>
           </div>

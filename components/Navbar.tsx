@@ -10,6 +10,7 @@ export const Navbar: React.FC = () => {
         <Link href="/">
           <a>
             <h1>N&N</h1>
+            <span>Chickens</span>
           </a>
         </Link>
       </div>

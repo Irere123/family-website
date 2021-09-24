@@ -7,7 +7,7 @@
 }
 
 .IntroText > h2 {
-  color: pink;
+  color: var(--paper-red-400);
   margin-bottom: 0;
   margin-left: 10px;
   font-size: 60px;
@@ -28,14 +28,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid pink;
+  border: 2px solid var(--paper-red-400);
   max-width: 130px;
   height: 40px;
+}
+
+.Button > a {
+  color: var(--paper-red-400);
 }
 
 .Button > span {
   display: flex;
   align-items: center;
+}
+
+.Icon {
+  color: var(--paper-red-400) !important;
 }
 
 .HomeLeftSide {
@@ -51,10 +59,13 @@
   display: flex;
   gap: 20px;
   justify-content: space-evenly;
-  background-color: var(--color-primary-text);
+  background-color: transparent;
+  color: var(--color-primary-text);
+  border: 2px solid var(--paper-red-400);
   width: 500px;
   height: 50px;
   margin: 0;
+  margin-top: 10px;
   border-radius: 10px;
   padding: 10px 0px 10px 0px;
 }
@@ -90,7 +101,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .ChangePicDots > span {
@@ -102,8 +113,12 @@
   transform: scale(1.08);
 }
 
+.IconDot {
+  color: var(--paper-red-400);
+}
+
 .Image {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
