@@ -96,6 +96,10 @@
   margin-top: 40px;
 }
 
+.GG {
+  color: red;
+}
+
 .ChangePicDots {
   display: flex;
   justify-content: center;
